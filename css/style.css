@@ -1,0 +1,34 @@
+body {
+    background-color: #083b4c;
+}
+#box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1389b2;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.Fizz {
+    background-color: #0cd6a1;
+}
+
+.Buzz {
+    background-color: #ffd166;
+}
+
+.FizzBuzz {
+    background-color: #f0466f;
+}
